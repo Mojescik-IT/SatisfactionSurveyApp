@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "925876563205",
+    "project_id": "satisfactionsurveyapp",
+    "storage_bucket": "satisfactionsurveyapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925876563205:android:ff9c09a6d261ebc1fb5b6c",
+        "android_client_info": {
+          "package_name": "com.example.satisfactionsurveyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925876563205-1v6t4mgrvra2f449m0majscg9lqv9agk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt4t2A-HDCvE69C-R6FR1d2JDG3w2ESzg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925876563205-1v6t4mgrvra2f449m0majscg9lqv9agk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
