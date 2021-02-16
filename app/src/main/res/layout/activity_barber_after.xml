@@ -8,129 +8,278 @@
 
     tools:context=".BarberAfterActivity">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_height="match_parent">
 
-        <ImageView
-            android:layout_width="400px"
-            android:layout_height="400px"
-            android:layout_gravity="center"
-            android:layout_marginTop="25dp"
-            android:src="@drawable/logo"
-            />
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="15dp"
-            android:textAlignment="center"
-            android:text="Oceń nas"
-            android:textSize="25sp"/>
+            android:orientation="vertical"
+            android:background="#3A3A3A"
+            >
 
-    </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FFFFFF">
 
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="15dp"
-            android:textAlignment="inherit"
-            android:text="Jaka jest szansa, że polecisz Nas swoim znajomym rodzinie?"
-            android:textSize="12sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"/>
-
-        <Spinner
-            android:id="@+id/spinnerCourse"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:entries="@array/q1_answers"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteY="300dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginTop="2dp"
+                    android:background="#2196F3"
+                    android:backgroundTintMode="add"
+                    android:text="   Po wizycie - BARBER CIESZYN"
+                    android:textAlignment="inherit"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
 
 
+                <ImageView
+                    android:layout_width="400px"
+                    android:layout_height="400px"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="1dp"
+                    android:src="@drawable/logo"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="#2196F3"
+                    android:text="Oceń nas PO"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
 
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="15dp"
-            android:textAlignment="inherit"
-            android:text="Jak oceniasz jakoś wykonania usługi??"
-            android:textSize="12sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"/>
-
-        <Spinner
-            android:id="@+id/spinnerCourse2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:entries="@array/q2_answers"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteY="300dp" />
-
-
-
-
-
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:textAlignment="center"
+                    android:text="Jaki jest Twój AKTUALNY poziom zadowolenia z   ______   w BARBER CIESZYN?"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"/>
 
 
 
 
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:textAlignment="inherit"
+                    android:text="JAKOŚCI WYKONANIA USŁUGI:"
+                    android:textSize="18sp"
+                    android:textStyle="normal"
+                    android:textColor="@color/white"
+                    android:background="#3A3A3A"
+                    />
+                <Spinner
+                    android:id="@+id/spinnerAfter"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:entries="@array/q1_afterAnswers"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="300dp"
+                    android:background="#E6E5E5"
+                    android:textAlignment="center"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:textAlignment="inherit"
+                    android:text="OBSŁUGI KLIENTA:"
+                    android:textSize="18sp"
+                    android:textStyle="normal"
+                    android:textColor="@color/white"
+                    android:background="#3A3A3A"/>
+
+                <Spinner
+                    android:id="@+id/spinnerAfter2"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:entries="@array/q2_afterAnswers"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="300dp"
+                    android:background="#E6E5E5"
+                    android:textAlignment="center"/>
 
 
-        <EditText
-            android:id="@+id/etName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="20dp"
-            android:layout_marginTop="50dp"
-            android:hint="Enter name"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:textAlignment="inherit"
+                    android:text="ATMOSFERY:"
+                    android:textSize="18sp"
+                    android:textStyle="normal"
+                    android:textColor="@color/white"
+                    android:background="#3A3A3A"/>
+
+                <Spinner
+                    android:id="@+id/spinnerAfter3"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:entries="@array/q3_afterAnswers"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="300dp"
+                    android:background="#E6E5E5"
+                    android:textAlignment="center"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:textAlignment="inherit"
+                    android:text="CZYSTOŚCI:"
+                    android:textSize="18sp"
+                    android:textStyle="normal"
+                    android:textColor="@color/white"
+                    android:background="#3A3A3A"/>
+
+                <Spinner
+                    android:id="@+id/spinnerAfter4"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:entries="@array/q4_afterAnswers"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="300dp"
+                    android:background="#E6E5E5"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:textAlignment="inherit"
+                    android:text="WIEDZY/KOMPETENCJI BARBERA:"
+                    android:textSize="18sp"
+                    android:textStyle="normal"
+                    android:textColor="@color/white"
+                    android:background="#3A3A3A"/>
+
+                <Spinner
+                    android:id="@+id/spinnerAfter5"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:entries="@array/q5_afterAnswers"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="300dp"
+                    android:background="#E6E5E5"
+                    android:textAlignment="center"/>
 
 
-        <EditText
-            android:id="@+id/etRollno"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="20dp"
-            android:hint="Enter name"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.503"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/etName" />
 
 
-        <Button
-            android:id="@+id/btnInsertData"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#FF0000"
-            android:text="After Insert Data"
-            android:textColor="#FF0000"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="10dp"
-            android:textStyle="bold" />
+                <!--        <EditText-->
+                <!--            android:id="@+id/etName"-->
+                <!--            android:layout_width="wrap_content"-->
+                <!--            android:layout_height="wrap_content"-->
+                <!--            android:layout_margin="20dp"-->
+                <!--            android:layout_marginTop="50dp"-->
+                <!--            android:hint="Enter name"-->
+                <!--            app:layout_constraintEnd_toEndOf="parent"-->
+                <!--            app:layout_constraintStart_toStartOf="parent"-->
+                <!--            app:layout_constraintTop_toTopOf="parent" />-->
 
-    </LinearLayout>
 
+                <!--        <EditText-->
+                <!--            android:id="@+id/etRollno"-->
+                <!--            android:layout_width="wrap_content"-->
+                <!--            android:layout_height="wrap_content"-->
+                <!--            android:layout_margin="20dp"-->
+                <!--            android:hint="Enter name"-->
+                <!--            app:layout_constraintEnd_toEndOf="parent"-->
+                <!--            app:layout_constraintHorizontal_bias="0.503"-->
+                <!--            app:layout_constraintStart_toStartOf="parent"-->
+                <!--            app:layout_constraintTop_toBottomOf="@+id/etName" />-->
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+            <Button
+                android:id="@+id/btnInsertDataAfter1"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="5dp"
+                android:backgroundTint="#2196F3"
+                android:text="Przejdź DALEJ"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </LinearLayout>

@@ -4,17 +4,24 @@ public class DateAfter {
 
      //   String name;
      //   String rollno;
-        String course;
-        String course2;
+        String after;
+        String after2;
+        String after3;
+        String after4;
+        String after5;
 
 
 
 
-    public DateAfter(String course, String course2) {  //String name, String rollno,
+
+    public DateAfter(String after, String after2, String after3, String after4, String after5) {  //String name, String rollno,
      //   this.name = name;
      //   this.rollno = rollno;
-        this.course = course;
-        this.course2 = course2;
+        this.after = after;
+        this.after2 = after2;
+        this.after3 = after3;
+        this.after4 = after4;
+        this.after5 = after5;
 
 
     }
@@ -28,12 +35,24 @@ public class DateAfter {
 //        return rollno;
 //    }
 
-    public String getCourse() {
-        return course;
-    }
-   public String getCourse2() {
-        return course2;
+
+    public String getAfter() {
+        return after;
     }
 
+    public String getAfter2() {
+        return after2;
+    }
 
+    public String getAfter3() {
+        return after3;
+    }
+
+    public String getAfter4() {
+        return after4;
+    }
+
+    public String getAfter5() {
+        return after5;
+    }
 }

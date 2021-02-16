@@ -42,4 +42,57 @@
         <item>słabo</item>
         <item>bardzo słabo</item>
     </array>
+
+
+
+
+
+
+    <array name="q1_afterAnswers">
+        <item>Kliknij i Oceń</item>
+        <item>bardzo dobrze</item>
+        <item>dobrze</item>
+        <item>przeciętnie</item>
+        <item>słabo</item>
+        <item>bardzo słabo</item>
+    </array>
+    <array name="q2_afterAnswers">
+        <item>Kliknij i Oceń</item>
+        <item>bardzo dobrze</item>
+        <item>dobrze</item>
+        <item>przeciętnie</item>
+        <item>słabo</item>
+        <item>bardzo słabo</item>
+    </array>
+    <array name="q3_afterAnswers">
+        <item>Kliknij i Oceń</item>
+        <item>bardzo dobrze</item>
+        <item>dobrze</item>
+        <item>przeciętnie</item>
+        <item>słabo</item>
+        <item>bardzo słabo</item>
+    </array>
+    <array name="q4_afterAnswers">
+        <item>Kliknij i Oceń</item>
+        <item>bardzo dobrze</item>
+        <item>dobrze</item>
+        <item>przeciętnie</item>
+        <item>słabo</item>
+        <item>bardzo słabo</item>
+    </array>
+
+    <array name="q5_afterAnswers">
+        <item>Kliknij i Oceń</item>
+        <item>bardzo dobrze</item>
+        <item>dobrze</item>
+        <item>przeciętnie</item>
+        <item>słabo</item>
+        <item>bardzo słabo</item>
+    </array>
+
+
+
+
+
+
 </resources>
