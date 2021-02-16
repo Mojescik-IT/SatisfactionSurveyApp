@@ -3,87 +3,87 @@
 
     <array name="q1_answers">
         <item>Kliknij i Oceń</item>
-        <item>bardzo dobrze</item>
-        <item>dobrze</item>
-        <item>przeciętnie</item>
-        <item>słabo</item>
-        <item>bardzo słabo</item>
+        <item>5 - bardzo dobrze</item>
+        <item>4 - dobrze</item>
+        <item>3 - przeciętnie</item>
+        <item>2 - słabo</item>
+        <item>1 - bardzo słabo</item>
     </array>
     <array name="q2_answers">
         <item>Kliknij i Oceń</item>
-        <item>bardzo dobrze</item>
-        <item>dobrze</item>
-        <item>przeciętnie</item>
-        <item>słabo</item>
-        <item>bardzo słabo</item>
+        <item>5 - bardzo dobrze</item>
+        <item>4 - dobrze</item>
+        <item>3 - przeciętnie</item>
+        <item>2 - słabo</item>
+        <item>1 - bardzo słabo</item>
     </array>
     <array name="q3_answers">
         <item>Kliknij i Oceń</item>
-        <item>bardzo dobrze</item>
-        <item>dobrze</item>
-        <item>przeciętnie</item>
-        <item>słabo</item>
-        <item>bardzo słabo</item>
+        <item>5 - bardzo dobrze</item>
+        <item>4 - dobrze</item>
+        <item>3 - przeciętnie</item>
+        <item>2 - słabo</item>
+        <item>1 - bardzo słabo</item>
     </array>
     <array name="q4_answers">
         <item>Kliknij i Oceń</item>
-        <item>bardzo dobrze</item>
-        <item>dobrze</item>
-        <item>przeciętnie</item>
-        <item>słabo</item>
-        <item>bardzo słabo</item>
+        <item>5 - bardzo dobrze</item>
+        <item>4 - dobrze</item>
+        <item>3 - przeciętnie</item>
+        <item>2 - słabo</item>
+        <item>1 - bardzo słabo</item>
     </array>
 
     <array name="q5_answers">
         <item>Kliknij i Oceń</item>
-        <item>bardzo dobrze</item>
-        <item>dobrze</item>
-        <item>przeciętnie</item>
-        <item>słabo</item>
-        <item>bardzo słabo</item>
+        <item>5 - bardzo dobrze</item>
+        <item>4 - dobrze</item>
+        <item>3 - przeciętnie</item>
+        <item>2 - słabo</item>
+        <item>1 - bardzo słabo</item>
     </array>
 
 
     <array name="q1_afterAnswers">
         <item>Kliknij i Oceń</item>
-        <item>bardzo dobrze</item>
-        <item>dobrze</item>
-        <item>przeciętnie</item>
-        <item>słabo</item>
-        <item>bardzo słabo</item>
+        <item>5 - bardzo dobrze</item>
+        <item>4 - dobrze</item>
+        <item>3 - przeciętnie</item>
+        <item>2 - słabo</item>
+        <item>1 - bardzo słabo</item>
     </array>
     <array name="q2_afterAnswers">
         <item>Kliknij i Oceń</item>
-        <item>bardzo dobrze</item>
-        <item>dobrze</item>
-        <item>przeciętnie</item>
-        <item>słabo</item>
-        <item>bardzo słabo</item>
+        <item>5 - bardzo dobrze</item>
+        <item>4 - dobrze</item>
+        <item>3 - przeciętnie</item>
+        <item>2 - słabo</item>
+        <item>1 - bardzo słabo</item>
     </array>
     <array name="q3_afterAnswers">
         <item>Kliknij i Oceń</item>
-        <item>bardzo dobrze</item>
-        <item>dobrze</item>
-        <item>przeciętnie</item>
-        <item>słabo</item>
-        <item>bardzo słabo</item>
+        <item>5 - bardzo dobrze</item>
+        <item>4 - dobrze</item>
+        <item>3 - przeciętnie</item>
+        <item>2 - słabo</item>
+        <item>1 - bardzo słabo</item>
     </array>
     <array name="q4_afterAnswers">
         <item>Kliknij i Oceń</item>
-        <item>bardzo dobrze</item>
-        <item>dobrze</item>
-        <item>przeciętnie</item>
-        <item>słabo</item>
-        <item>bardzo słabo</item>
+        <item>5 - bardzo dobrze</item>
+        <item>4 - dobrze</item>
+        <item>3 - przeciętnie</item>
+        <item>2 - słabo</item>
+        <item>1 - bardzo słabo</item>
     </array>
 
     <array name="q5_afterAnswers">
         <item>Kliknij i Oceń</item>
-        <item>bardzo dobrze</item>
-        <item>dobrze</item>
-        <item>przeciętnie</item>
-        <item>słabo</item>
-        <item>bardzo słabo</item>
+        <item>5 - bardzo dobrze</item>
+        <item>4 - dobrze</item>
+        <item>3 - przeciętnie</item>
+        <item>2 - słabo</item>
+        <item>1 - bardzo słabo</item>
     </array>
 
 
@@ -91,8 +91,8 @@
 
 
     <array name="q1_afterAnswersNCS">
-        <item>Kliknij i Oceń</item>
-        <item>10 - na pewno polecę</item>
+        <item>Kliknij i Oceń (SKALA 1-10)</item>
+        <item>10 - Na pewno tak</item>
         <item>9 -</item>
         <item>8 -</item>
         <item>7 -</item>
@@ -101,7 +101,8 @@
         <item>4 -</item>
         <item>3 -</item>
         <item>2 -</item>
-        <item>1 - na pewno nie polecę</item>
+        <item>1 -</item>
+        <item>0 - Na pewno nie</item>
     </array>
 
 

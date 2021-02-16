@@ -72,7 +72,7 @@ public class BarberAfterNCSActivity extends AppCompatActivity {
         DateAfterNCS dateAfterNCS = new DateAfterNCS(afterNCS); //name,rollno
 
         dateDbRefAfterNCS.push().setValue(dateAfterNCS);
-        Toast.makeText(BarberAfterNCSActivity.this, "Data inserted!", Toast.LENGTH_SHORT).show();
+        Toast.makeText(BarberAfterNCSActivity.this, "Dziękujemy za OCENE! :)", Toast.LENGTH_LONG).show();
 
 
     }

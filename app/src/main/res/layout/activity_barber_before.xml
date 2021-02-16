@@ -55,7 +55,7 @@
             android:layout_marginTop="2dp"
             android:layout_marginBottom="2dp"
             android:background="#2196F3"
-            android:text="Oceń nas"
+            android:text="Oceń nas PRZED WIZYTĄ"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="25sp" />
@@ -76,7 +76,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginEnd="5dp"
             android:textAlignment="center"
-            android:text="Jaki jest Twój OCZEKIWANY poziom zadowolenia z   ______   w BARBER CIESZYN?"
+            android:text="Jaki jest Twój OCZEKIWANY\npoziom zadowolenia z\n__________   w BARBER CIESZYN?"
             android:textSize="18sp"
             android:textStyle="bold"
             android:textColor="#FFFFFF"/>
@@ -100,9 +100,11 @@
             />
         <Spinner
             android:id="@+id/spinnerCourse"
-            android:layout_width="match_parent"
+            android:layout_width="250dp"
             android:layout_height="40dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
             android:entries="@array/q1_answers"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
@@ -129,9 +131,11 @@
 
         <Spinner
             android:id="@+id/spinnerCourse2"
-            android:layout_width="match_parent"
+            android:layout_width="250dp"
             android:layout_height="40dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
             android:entries="@array/q2_answers"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
@@ -158,9 +162,11 @@
 
         <Spinner
             android:id="@+id/spinnerCourse3"
-            android:layout_width="match_parent"
+            android:layout_width="250dp"
             android:layout_height="40dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
             android:entries="@array/q3_answers"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
@@ -187,9 +193,11 @@
 
         <Spinner
             android:id="@+id/spinnerCourse4"
-            android:layout_width="match_parent"
+            android:layout_width="250dp"
             android:layout_height="40dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
             android:entries="@array/q4_answers"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
@@ -215,9 +223,11 @@
 
         <Spinner
             android:id="@+id/spinnerCourse5"
-            android:layout_width="match_parent"
+            android:layout_width="250dp"
             android:layout_height="40dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
             android:entries="@array/q5_answers"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"

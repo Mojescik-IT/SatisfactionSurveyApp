@@ -76,7 +76,7 @@ public class BarberBeforeActivity extends AppCompatActivity {
         DateBefore dateBefore = new DateBefore(course,course2,course3,course4,course5); //name,rollno
 
         dateDbRef.push().setValue(dateBefore);
-        Toast.makeText(BarberBeforeActivity.this,"Data inserted!",Toast.LENGTH_SHORT).show();
+        Toast.makeText(BarberBeforeActivity.this,"Dziękujemy za OCENĘ :)",Toast.LENGTH_LONG).show();
 
 
 

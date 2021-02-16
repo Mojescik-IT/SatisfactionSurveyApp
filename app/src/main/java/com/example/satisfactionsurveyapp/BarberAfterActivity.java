@@ -78,7 +78,7 @@ public class BarberAfterActivity extends AppCompatActivity {
         DateAfter dateAfter = new DateAfter(after,after2,after3,after4,after5); //name,rollno
 
         dateDbRefAfter.push().setValue(dateAfter);
-        Toast.makeText(BarberAfterActivity.this,"Data inserted!",Toast.LENGTH_SHORT).show();
+        Toast.makeText(BarberAfterActivity.this,"...jeszcze jedno pytanie :)",Toast.LENGTH_LONG).show();
 
 
 
