@@ -44,10 +44,6 @@
     </array>
 
 
-
-
-
-
     <array name="q1_afterAnswers">
         <item>Kliknij i Oceń</item>
         <item>bardzo dobrze</item>
@@ -90,6 +86,23 @@
         <item>bardzo słabo</item>
     </array>
 
+
+
+
+
+    <array name="q1_afterAnswersNCS">
+        <item>Kliknij i Oceń</item>
+        <item>10 - na pewno polecę</item>
+        <item>9 -</item>
+        <item>8 -</item>
+        <item>7 -</item>
+        <item>6 -</item>
+        <item>5 -</item>
+        <item>4 -</item>
+        <item>3 -</item>
+        <item>2 -</item>
+        <item>1 - na pewno nie polecę</item>
+    </array>
 
 
 

@@ -52,7 +52,7 @@ public class BarberAfterActivity extends AppCompatActivity {
         btnInsertDataAfter1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(BarberAfterActivity.this, MainActivity.class); //przechodzi do MainActivity i dodaje odpowiedzi do bazy danych
+                Intent intent = new Intent(BarberAfterActivity.this, BarberAfterNCSActivity.class); //przechodzi do MainActivity i dodaje odpowiedzi do bazy danych
                 startActivity(intent);
                 insertData();
 
