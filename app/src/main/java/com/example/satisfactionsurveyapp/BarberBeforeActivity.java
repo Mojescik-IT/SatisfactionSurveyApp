@@ -2,6 +2,7 @@ package com.example.satisfactionsurveyapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -49,8 +50,16 @@ public class BarberBeforeActivity extends AppCompatActivity {
         btnInsertData.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent(BarberBeforeActivity.this, MainActivity.class); //przechodzi do MainActivity i dodaje odpowiedzi do bazy danych
+                startActivity(intent);
                 insertData();
+
+
+
+
+
             }
+
         });
     }
 
@@ -68,6 +77,8 @@ public class BarberBeforeActivity extends AppCompatActivity {
 
         dateDbRef.push().setValue(dateBefore);
         Toast.makeText(BarberBeforeActivity.this,"Data inserted!",Toast.LENGTH_SHORT).show();
+
+
 
     }
 

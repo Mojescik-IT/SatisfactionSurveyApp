@@ -3,43 +3,43 @@
 
     <array name="q1_answers">
         <item>Kliknij i Oceń</item>
-        <item>5 - Na pewno polecę</item>
-        <item>4 - Myślę, że polecę</item>
-        <item>3 - Nie wiem czy polecę</item>
-        <item>2 - Nie jestem pewien</item>
-        <item>1 - Nie polecę</item>
+        <item>bardzo dobrze</item>
+        <item>dobrze</item>
+        <item>przeciętnie</item>
+        <item>słabo</item>
+        <item>bardzo słabo</item>
     </array>
     <array name="q2_answers">
         <item>Kliknij i Oceń</item>
-        <item>Ocena 5</item>
-        <item>Ocena 4</item>
-        <item>Ocena 3</item>
-        <item>Ocena 2</item>
-        <item>Ocena 1</item>
+        <item>bardzo dobrze</item>
+        <item>dobrze</item>
+        <item>przeciętnie</item>
+        <item>słabo</item>
+        <item>bardzo słabo</item>
     </array>
     <array name="q3_answers">
         <item>Kliknij i Oceń</item>
-        <item>O 5</item>
-        <item>O 4</item>
-        <item>O 3</item>
-        <item>O 2</item>
-        <item>O 1</item>
+        <item>bardzo dobrze</item>
+        <item>dobrze</item>
+        <item>przeciętnie</item>
+        <item>słabo</item>
+        <item>bardzo słabo</item>
     </array>
     <array name="q4_answers">
         <item>Kliknij i Oceń</item>
-        <item>O 5</item>
-        <item>O 4</item>
-        <item>O 3</item>
-        <item>O 2</item>
-        <item>O 1</item>
+        <item>bardzo dobrze</item>
+        <item>dobrze</item>
+        <item>przeciętnie</item>
+        <item>słabo</item>
+        <item>bardzo słabo</item>
     </array>
 
     <array name="q5_answers">
         <item>Kliknij i Oceń</item>
-        <item>O 5</item>
-        <item>O 4</item>
-        <item>O 3</item>
-        <item>O 2</item>
-        <item>O 1</item>
+        <item>bardzo dobrze</item>
+        <item>dobrze</item>
+        <item>przeciętnie</item>
+        <item>słabo</item>
+        <item>bardzo słabo</item>
     </array>
 </resources>

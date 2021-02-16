@@ -28,13 +28,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         title = findViewById(R.id.main_title);
-        title2 = findViewById(R.id.main_title2);
+//        title2 = findViewById(R.id.main_title2);
         start = findViewById(R.id.ma_startB);
         startAfter = findViewById(R.id.ma_startC);
 
         Typeface typeface = ResourcesCompat.getFont(this, R.font.blacklist);
         title.setTypeface(typeface);
-        title2.setTypeface(typeface);
+//        title2.setTypeface(typeface);
 
 
         //Przechodzi do BarberBeforeActivity

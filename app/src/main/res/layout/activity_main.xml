@@ -4,13 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#92E3ED"
+    android:background="#FFFFFF"
     tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginTop="2dp"
+        android:background="#2196F3"
+        android:backgroundTintMode="add"
+        android:text="   BARBER CIESZYN"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="201dp"
-        android:layout_height="210dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
         android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,30 +40,31 @@
         android:id="@+id/main_title"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:text="Satisfaction Survey"
+        android:layout_marginTop="60dp"
+        android:text="OCEŃ NAS"
         android:gravity="center"
+        android:background="#2196F3"
         android:textSize="30sp"
         android:textStyle="bold"
-        android:textColor="@android:color/black"
+        android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
-    <TextView
-        android:id="@+id/main_title2"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:gravity="center"
-        android:text="Satisfaction Survey2"
-        android:textColor="@android:color/black"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/ma_startB"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+<!--    <TextView-->
+<!--        android:id="@+id/main_title2"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="32dp"-->
+<!--        android:gravity="center"-->
+<!--        android:text="Satisfaction Survey2"-->
+<!--        android:textColor="@android:color/black"-->
+<!--        android:textSize="30sp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/ma_startB"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/imageView2" />-->
 
     <Button
         android:id="@+id/ma_startB"
@@ -55,10 +73,10 @@
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="64dp"
-        android:background="#92E3ED"
-        android:text="Barber Before"
-        android:textColor="#000000"
-        android:textSize="18sp"
+        android:background="#BCBCBC"
+        android:text="Barber PRZED"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -73,13 +91,14 @@
         android:id="@+id/ma_startC"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="64dp"
         android:background="#92E3ED"
-        android:text="Barber After"
-        android:textColor="#000000"
-        android:textSize="18sp"
+        android:text="Barber PO"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
