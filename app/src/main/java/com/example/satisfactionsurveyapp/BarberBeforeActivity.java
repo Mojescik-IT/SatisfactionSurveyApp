@@ -1,5 +1,6 @@
 package com.example.satisfactionsurveyapp;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -10,8 +11,13 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
+import java.lang.reflect.Member;
 
 public class BarberBeforeActivity extends AppCompatActivity {
 
@@ -23,6 +29,9 @@ public class BarberBeforeActivity extends AppCompatActivity {
     Spinner spinnerCourses4;
     Spinner spinnerCourses5;
     Button btnInsertData;
+//long maxid=0;
+//BarberBeforeActivity barberBeforeActivity;
+//    DateBefore dateBefore;
 
 
     DatabaseReference dateDbRef;
@@ -43,9 +52,28 @@ public class BarberBeforeActivity extends AppCompatActivity {
 
 
         btnInsertData = findViewById(R.id.btnInsertData);
+//       barberBeforeActivity = new BarberBeforeActivity();
+//        DateBefore dateBefore = new DateBefore(beforeAnswer1,beforeAnswer2,beforeAnswer3,beforeAnswer4,beforeAnswer5);
+
+        dateDbRef = FirebaseDatabase.getInstance().getReference().child("BeforeBarber");  //.child("test1");
+
+////---
+//        dateDbRef.addValueEventListener(new ValueEventListener() {
+//            @Override
+//            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+//                if (dataSnapshot.exists())
+//                    maxid=(dataSnapshot.getChildrenCount());
+//            }
+//
+//            @Override
+//            public void onCancelled(@NonNull DatabaseError error) {
+//
+//            }
+//        });
+//
+////---
 
 
-        dateDbRef = FirebaseDatabase.getInstance().getReference("BeforeBarber");  //.child("test1");
 
         btnInsertData.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -54,8 +82,9 @@ public class BarberBeforeActivity extends AppCompatActivity {
                 startActivity(intent);
                 insertData();
 
-
-
+//----
+//                dateDbRef.child(String.valueOf(maxid+1)).setValue(dateBefore);
+//----
 
 
             }
@@ -66,14 +95,14 @@ public class BarberBeforeActivity extends AppCompatActivity {
     private void insertData(){
       //  String name = etName.getText().toString();
       //  String rollno = etRollno.getText().toString();
-        String course = spinnerCourses.getSelectedItem().toString();
-        String course2 = spinnerCourses2.getSelectedItem().toString();
-        String course3 = spinnerCourses3.getSelectedItem().toString();
-        String course4 = spinnerCourses4.getSelectedItem().toString();
-        String course5 = spinnerCourses5.getSelectedItem().toString();
+        String beforeAnswer1 = spinnerCourses.getSelectedItem().toString();
+        String beforeAnswer2 = spinnerCourses2.getSelectedItem().toString();
+        String beforeAnswer3 = spinnerCourses3.getSelectedItem().toString();
+        String beforeAnswer4 = spinnerCourses4.getSelectedItem().toString();
+        String beforeAnswer5 = spinnerCourses5.getSelectedItem().toString();
 
 
-        DateBefore dateBefore = new DateBefore(course,course2,course3,course4,course5); //name,rollno
+        DateBefore dateBefore = new DateBefore(beforeAnswer1,beforeAnswer2,beforeAnswer3,beforeAnswer4,beforeAnswer5); //name,rollno
 
         dateDbRef.push().setValue(dateBefore);
         Toast.makeText(BarberBeforeActivity.this,"Dziękujemy za OCENĘ :)",Toast.LENGTH_LONG).show();
