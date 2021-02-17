@@ -75,7 +75,7 @@
                     android:layout_marginStart="5dp"
                     android:layout_marginEnd="5dp"
                     android:textAlignment="center"
-                    android:text="Jaki jest Twój AKTUALNY poziom zadowolenia z\n __________   w BARBER CIESZYN?"
+                    android:text="Jaki jest Twój AKTUALNY poziom zadowolenia z ...?"
                     android:textSize="18sp"
                     android:textStyle="bold"
                     android:textColor="#FFFFFF"/>
