@@ -18,6 +18,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.lang.reflect.Member;
+import java.util.Date;
 
 public class BarberBeforeActivity extends AppCompatActivity {
 
@@ -29,12 +30,12 @@ public class BarberBeforeActivity extends AppCompatActivity {
     Spinner spinnerCourses4;
     Spinner spinnerCourses5;
     Button btnInsertData;
-//long maxid=0;
-//BarberBeforeActivity barberBeforeActivity;
-//    DateBefore dateBefore;
-
-
     DatabaseReference dateDbRef;
+
+////-
+//    int maxid = 0;
+//    DateBefore dateBefore;
+////-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,19 +51,20 @@ public class BarberBeforeActivity extends AppCompatActivity {
         spinnerCourses4 = findViewById(R.id.spinnerCourse4);
         spinnerCourses5 = findViewById(R.id.spinnerCourse5);
 
-
-        btnInsertData = findViewById(R.id.btnInsertData);
-//       barberBeforeActivity = new BarberBeforeActivity();
-//        DateBefore dateBefore = new DateBefore(beforeAnswer1,beforeAnswer2,beforeAnswer3,beforeAnswer4,beforeAnswer5);
-
-        dateDbRef = FirebaseDatabase.getInstance().getReference().child("BeforeBarber");  //.child("test1");
-
-////---
+////-
+//
+//
+//
+//        dateBefore  = new DateBefore(" "," "," "," "," ");
+//        dateDbRef = FirebaseDatabase.getInstance().getReference().child("BeforeBarber");
 //        dateDbRef.addValueEventListener(new ValueEventListener() {
 //            @Override
 //            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-//                if (dataSnapshot.exists())
-//                    maxid=(dataSnapshot.getChildrenCount());
+//                if (dataSnapshot.exists()){
+//                    maxid = (int) dataSnapshot.getChildrenCount();
+//                }else {
+//
+//                }
 //            }
 //
 //            @Override
@@ -70,8 +72,13 @@ public class BarberBeforeActivity extends AppCompatActivity {
 //
 //            }
 //        });
-//
-////---
+////-
+
+        btnInsertData = findViewById(R.id.btnInsertData);
+
+
+        dateDbRef = FirebaseDatabase.getInstance().getReference().child("BeforeBarber");  //.child("test1");
+
 
 
 
@@ -82,9 +89,6 @@ public class BarberBeforeActivity extends AppCompatActivity {
                 startActivity(intent);
                 insertData();
 
-//----
-//                dateDbRef.child(String.valueOf(maxid+1)).setValue(dateBefore);
-//----
 
 
             }
@@ -100,6 +104,10 @@ public class BarberBeforeActivity extends AppCompatActivity {
         String beforeAnswer3 = spinnerCourses3.getSelectedItem().toString();
         String beforeAnswer4 = spinnerCourses4.getSelectedItem().toString();
         String beforeAnswer5 = spinnerCourses5.getSelectedItem().toString();
+
+//        //-
+//        dateDbRef.child(String.valueOf(maxid+1)).push().setValue(dateBefore);
+//        //-
 
 
         DateBefore dateBefore = new DateBefore(beforeAnswer1,beforeAnswer2,beforeAnswer3,beforeAnswer4,beforeAnswer5); //name,rollno
